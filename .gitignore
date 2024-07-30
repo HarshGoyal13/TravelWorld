@@ -1,0 +1,43 @@
+# Ignore environment variables file
+.env
+
+# Ignore node_modules directory
+node_modules/
+.vercel
+
+
+# Build output
+/.next
+/out
+
+# Production
+/build
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Next.js custom server
+/.next/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# npm package lock
+package-lock.json
+
+# Yarn package lock
+yarn.lock
