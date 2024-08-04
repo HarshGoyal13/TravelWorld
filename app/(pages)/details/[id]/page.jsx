@@ -65,6 +65,7 @@ const Details = (ctx) => {
                                     src={imageUrl}
                                     blurDataURL={listing.blurredImage}
                                     placeholder="blur"
+                                    alt="image1"
                                 />
                             </swiper-slide>
                         ))}

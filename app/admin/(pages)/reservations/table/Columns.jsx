@@ -18,6 +18,7 @@ export const columns = [
                         width="35"
                         height="35"
                         className="rounded-full object-cover"
+                        alt="image1"
                     />
                 </div>
             )

@@ -83,7 +83,7 @@ const Catalog = () => {
         <Image
           src={image}
           alt={`${city_name} Image`}
-          className="brightness-50 h-full w-full object-cover"
+          className="brightness-50 h-[500px] w-full object-cover"
         />
         <h3 className="absolute text-2xl sm:text-4xl md:text-6xl capitalize font-semibold flex items-center justify-center bottom-0 left-0 right-0 top-0 text-white">
           {city_name}
@@ -92,7 +92,7 @@ const Catalog = () => {
       <div className="relative z-20 -mt-4 sm:-mt-8 md:-mt-12 h-full w-full flex flex-col items-center px-4 sm:px-0">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="border w-full sm:w-2/3 h-auto p-4 sm:p-8 md:p-12 border-slate-500 rounded-xl bg-blue-600 text-white flex flex-col sm:flex-row justify-between items-start gap-4 sm:gap-6"
+          className="border md:w-[900px] sm:w-2/3 h-auto p-4 sm:p-8 md:p-12 border-slate-500 rounded-xl bg-blue-600 text-white flex flex-col sm:flex-row justify-between items-start gap-4 sm:gap-6"
         >
           <div className="flex flex-col items-start gap-1">
             <h3 className="text-xs sm:text-sm md:text-base text-[#efefef] font-semibold">
